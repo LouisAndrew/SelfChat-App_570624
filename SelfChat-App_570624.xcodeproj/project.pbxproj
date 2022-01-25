@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3498FF427A0098200BD6310 /* SelfChat_App_570624App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3498FF327A0098200BD6310 /* SelfChat_App_570624App.swift */; };
+		D3498FF627A0098200BD6310 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3498FF527A0098200BD6310 /* ContentView.swift */; };
+		D3498FF827A0098400BD6310 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3498FF727A0098400BD6310 /* Assets.xcassets */; };
+		D3498FFB27A0098400BD6310 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3498FFA27A0098400BD6310 /* Preview Assets.xcassets */; };
+		D349900527A0098400BD6310 /* SelfChat_App_570624Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D349900427A0098400BD6310 /* SelfChat_App_570624Tests.swift */; };
+		D349900F27A0098400BD6310 /* SelfChat_App_570624UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D349900E27A0098400BD6310 /* SelfChat_App_570624UITests.swift */; };
+		D349901127A0098400BD6310 /* SelfChat_App_570624UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D349901027A0098400BD6310 /* SelfChat_App_570624UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D349900127A0098400BD6310 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3498FE827A0098200BD6310 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3498FEF27A0098200BD6310;
+			remoteInfo = "SelfChat-App_570624";
+		};
+		D349900B27A0098400BD6310 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3498FE827A0098200BD6310 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3498FEF27A0098200BD6310;
+			remoteInfo = "SelfChat-App_570624";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3498FF027A0098200BD6310 /* SelfChat-App_570624.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SelfChat-App_570624.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3498FF327A0098200BD6310 /* SelfChat_App_570624App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfChat_App_570624App.swift; sourceTree = "<group>"; };
+		D3498FF527A0098200BD6310 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D3498FF727A0098400BD6310 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3498FFA27A0098400BD6310 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D349900027A0098400BD6310 /* SelfChat-App_570624Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SelfChat-App_570624Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D349900427A0098400BD6310 /* SelfChat_App_570624Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfChat_App_570624Tests.swift; sourceTree = "<group>"; };
+		D349900A27A0098400BD6310 /* SelfChat-App_570624UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SelfChat-App_570624UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D349900E27A0098400BD6310 /* SelfChat_App_570624UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfChat_App_570624UITests.swift; sourceTree = "<group>"; };
+		D349901027A0098400BD6310 /* SelfChat_App_570624UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfChat_App_570624UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3498FED27A0098200BD6310 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3498FFD27A0098400BD6310 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D349900727A0098400BD6310 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3498FE727A0098200BD6310 = {
+			isa = PBXGroup;
+			children = (
+				D3498FF227A0098200BD6310 /* SelfChat-App_570624 */,
+				D349900327A0098400BD6310 /* SelfChat-App_570624Tests */,
+				D349900D27A0098400BD6310 /* SelfChat-App_570624UITests */,
+				D3498FF127A0098200BD6310 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3498FF127A0098200BD6310 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3498FF027A0098200BD6310 /* SelfChat-App_570624.app */,
+				D349900027A0098400BD6310 /* SelfChat-App_570624Tests.xctest */,
+				D349900A27A0098400BD6310 /* SelfChat-App_570624UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3498FF227A0098200BD6310 /* SelfChat-App_570624 */ = {
+			isa = PBXGroup;
+			children = (
+				D3498FF327A0098200BD6310 /* SelfChat_App_570624App.swift */,
+				D3498FF527A0098200BD6310 /* ContentView.swift */,
+				D3498FF727A0098400BD6310 /* Assets.xcassets */,
+				D3498FF927A0098400BD6310 /* Preview Content */,
+			);
+			path = "SelfChat-App_570624";
+			sourceTree = "<group>";
+		};
+		D3498FF927A0098400BD6310 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D3498FFA27A0098400BD6310 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D349900327A0098400BD6310 /* SelfChat-App_570624Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D349900427A0098400BD6310 /* SelfChat_App_570624Tests.swift */,
+			);
+			path = "SelfChat-App_570624Tests";
+			sourceTree = "<group>";
+		};
+		D349900D27A0098400BD6310 /* SelfChat-App_570624UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D349900E27A0098400BD6310 /* SelfChat_App_570624UITests.swift */,
+				D349901027A0098400BD6310 /* SelfChat_App_570624UITestsLaunchTests.swift */,
+			);
+			path = "SelfChat-App_570624UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3498FEF27A0098200BD6310 /* SelfChat-App_570624 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D349901427A0098400BD6310 /* Build configuration list for PBXNativeTarget "SelfChat-App_570624" */;
+			buildPhases = (
+				D3498FEC27A0098200BD6310 /* Sources */,
+				D3498FED27A0098200BD6310 /* Frameworks */,
+				D3498FEE27A0098200BD6310 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SelfChat-App_570624";
+			productName = "SelfChat-App_570624";
+			productReference = D3498FF027A0098200BD6310 /* SelfChat-App_570624.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3498FFF27A0098400BD6310 /* SelfChat-App_570624Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D349901727A0098400BD6310 /* Build configuration list for PBXNativeTarget "SelfChat-App_570624Tests" */;
+			buildPhases = (
+				D3498FFC27A0098400BD6310 /* Sources */,
+				D3498FFD27A0098400BD6310 /* Frameworks */,
+				D3498FFE27A0098400BD6310 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D349900227A0098400BD6310 /* PBXTargetDependency */,
+			);
+			name = "SelfChat-App_570624Tests";
+			productName = "SelfChat-App_570624Tests";
+			productReference = D349900027A0098400BD6310 /* SelfChat-App_570624Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D349900927A0098400BD6310 /* SelfChat-App_570624UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D349901A27A0098400BD6310 /* Build configuration list for PBXNativeTarget "SelfChat-App_570624UITests" */;
+			buildPhases = (
+				D349900627A0098400BD6310 /* Sources */,
+				D349900727A0098400BD6310 /* Frameworks */,
+				D349900827A0098400BD6310 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D349900C27A0098400BD6310 /* PBXTargetDependency */,
+			);
+			name = "SelfChat-App_570624UITests";
+			productName = "SelfChat-App_570624UITests";
+			productReference = D349900A27A0098400BD6310 /* SelfChat-App_570624UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3498FE827A0098200BD6310 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D3498FEF27A0098200BD6310 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					D3498FFF27A0098400BD6310 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D3498FEF27A0098200BD6310;
+					};
+					D349900927A0098400BD6310 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D3498FEF27A0098200BD6310;
+					};
+				};
+			};
+			buildConfigurationList = D3498FEB27A0098200BD6310 /* Build configuration list for PBXProject "SelfChat-App_570624" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3498FE727A0098200BD6310;
+			productRefGroup = D3498FF127A0098200BD6310 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3498FEF27A0098200BD6310 /* SelfChat-App_570624 */,
+				D3498FFF27A0098400BD6310 /* SelfChat-App_570624Tests */,
+				D349900927A0098400BD6310 /* SelfChat-App_570624UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3498FEE27A0098200BD6310 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3498FFB27A0098400BD6310 /* Preview Assets.xcassets in Resources */,
+				D3498FF827A0098400BD6310 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3498FFE27A0098400BD6310 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D349900827A0098400BD6310 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3498FEC27A0098200BD6310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3498FF627A0098200BD6310 /* ContentView.swift in Sources */,
+				D3498FF427A0098200BD6310 /* SelfChat_App_570624App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3498FFC27A0098400BD6310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D349900527A0098400BD6310 /* SelfChat_App_570624Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D349900627A0098400BD6310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D349901127A0098400BD6310 /* SelfChat_App_570624UITestsLaunchTests.swift in Sources */,
+				D349900F27A0098400BD6310 /* SelfChat_App_570624UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D349900227A0098400BD6310 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3498FEF27A0098200BD6310 /* SelfChat-App_570624 */;
+			targetProxy = D349900127A0098400BD6310 /* PBXContainerItemProxy */;
+		};
+		D349900C27A0098400BD6310 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3498FEF27A0098200BD6310 /* SelfChat-App_570624 */;
+			targetProxy = D349900B27A0098400BD6310 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D349901227A0098400BD6310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D349901327A0098400BD6310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D349901527A0098400BD6310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SelfChat-App_570624/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "s0570624.SelfChat-App-570624";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D349901627A0098400BD6310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SelfChat-App_570624/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "s0570624.SelfChat-App-570624";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D349901827A0098400BD6310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "s0570624.SelfChat-App-570624Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelfChat-App_570624.app/SelfChat-App_570624";
+			};
+			name = Debug;
+		};
+		D349901927A0098400BD6310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "s0570624.SelfChat-App-570624Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelfChat-App_570624.app/SelfChat-App_570624";
+			};
+			name = Release;
+		};
+		D349901B27A0098400BD6310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "s0570624.SelfChat-App-570624UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SelfChat-App_570624";
+			};
+			name = Debug;
+		};
+		D349901C27A0098400BD6310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "s0570624.SelfChat-App-570624UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SelfChat-App_570624";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3498FEB27A0098200BD6310 /* Build configuration list for PBXProject "SelfChat-App_570624" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D349901227A0098400BD6310 /* Debug */,
+				D349901327A0098400BD6310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D349901427A0098400BD6310 /* Build configuration list for PBXNativeTarget "SelfChat-App_570624" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D349901527A0098400BD6310 /* Debug */,
+				D349901627A0098400BD6310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D349901727A0098400BD6310 /* Build configuration list for PBXNativeTarget "SelfChat-App_570624Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D349901827A0098400BD6310 /* Debug */,
+				D349901927A0098400BD6310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D349901A27A0098400BD6310 /* Build configuration list for PBXNativeTarget "SelfChat-App_570624UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D349901B27A0098400BD6310 /* Debug */,
+				D349901C27A0098400BD6310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3498FE827A0098200BD6310 /* Project object */;
+}
