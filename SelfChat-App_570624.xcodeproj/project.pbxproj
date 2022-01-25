@@ -14,6 +14,12 @@
 		D349900527A0098400BD6310 /* SelfChat_App_570624Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D349900427A0098400BD6310 /* SelfChat_App_570624Tests.swift */; };
 		D349900F27A0098400BD6310 /* SelfChat_App_570624UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D349900E27A0098400BD6310 /* SelfChat_App_570624UITests.swift */; };
 		D349901127A0098400BD6310 /* SelfChat_App_570624UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D349901027A0098400BD6310 /* SelfChat_App_570624UITestsLaunchTests.swift */; };
+		D349902027A022B800BD6310 /* ChatPartner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D349901F27A022B800BD6310 /* ChatPartner.swift */; };
+		D349902427A0238800BD6310 /* SelectPartnerMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D349902327A0238800BD6310 /* SelectPartnerMenu.swift */; };
+		D35B419F27A03E3E00963E71 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35B419E27A03E3E00963E71 /* BaseController.swift */; };
+		D370C6EB27A026FB0083FA61 /* GetChatPartners.swift in Sources */ = {isa = PBXBuildFile; fileRef = D370C6EA27A026FB0083FA61 /* GetChatPartners.swift */; };
+		D370C6F027A02A190083FA61 /* JSONUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D370C6EF27A02A190083FA61 /* JSONUtils.swift */; };
+		D370C6F227A036DE0083FA61 /* ChatPartnersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D370C6F127A036DE0083FA61 /* ChatPartnersController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		D349900A27A0098400BD6310 /* SelfChat-App_570624UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SelfChat-App_570624UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D349900E27A0098400BD6310 /* SelfChat_App_570624UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfChat_App_570624UITests.swift; sourceTree = "<group>"; };
 		D349901027A0098400BD6310 /* SelfChat_App_570624UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfChat_App_570624UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D349901F27A022B800BD6310 /* ChatPartner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChatPartner.swift; path = Models/ChatPartner.swift; sourceTree = "<group>"; };
+		D349902327A0238800BD6310 /* SelectPartnerMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SelectPartnerMenu.swift; path = Views/SelectPartnerMenu.swift; sourceTree = "<group>"; };
+		D35B419E27A03E3E00963E71 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseController.swift; path = "SelfChat-App_570624/Controller/BaseController.swift"; sourceTree = "<group>"; };
+		D370C6EA27A026FB0083FA61 /* GetChatPartners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GetChatPartners.swift; path = "SelfChat-App_570624/Utils/GetChatPartners.swift"; sourceTree = "<group>"; };
+		D370C6EF27A02A190083FA61 /* JSONUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JSONUtils.swift; path = Utils/JSONUtils.swift; sourceTree = "<group>"; };
+		D370C6F127A036DE0083FA61 /* ChatPartnersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChatPartnersController.swift; path = Controller/ChatPartnersController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +86,8 @@
 		D3498FE727A0098200BD6310 = {
 			isa = PBXGroup;
 			children = (
+				D35B419E27A03E3E00963E71 /* BaseController.swift */,
+				D370C6EA27A026FB0083FA61 /* GetChatPartners.swift */,
 				D3498FF227A0098200BD6310 /* SelfChat-App_570624 */,
 				D349900327A0098400BD6310 /* SelfChat-App_570624Tests */,
 				D349900D27A0098400BD6310 /* SelfChat-App_570624UITests */,
@@ -96,8 +110,12 @@
 			children = (
 				D3498FF327A0098200BD6310 /* SelfChat_App_570624App.swift */,
 				D3498FF527A0098200BD6310 /* ContentView.swift */,
+				D370C6EF27A02A190083FA61 /* JSONUtils.swift */,
+				D370C6F127A036DE0083FA61 /* ChatPartnersController.swift */,
+				D349901F27A022B800BD6310 /* ChatPartner.swift */,
 				D3498FF727A0098400BD6310 /* Assets.xcassets */,
 				D3498FF927A0098400BD6310 /* Preview Content */,
+				D349902327A0238800BD6310 /* SelectPartnerMenu.swift */,
 			);
 			path = "SelfChat-App_570624";
 			sourceTree = "<group>";
@@ -257,8 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D370C6F027A02A190083FA61 /* JSONUtils.swift in Sources */,
+				D349902427A0238800BD6310 /* SelectPartnerMenu.swift in Sources */,
+				D349902027A022B800BD6310 /* ChatPartner.swift in Sources */,
 				D3498FF627A0098200BD6310 /* ContentView.swift in Sources */,
+				D370C6EB27A026FB0083FA61 /* GetChatPartners.swift in Sources */,
 				D3498FF427A0098200BD6310 /* SelfChat_App_570624App.swift in Sources */,
+				D35B419F27A03E3E00963E71 /* BaseController.swift in Sources */,
+				D370C6F227A036DE0083FA61 /* ChatPartnersController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
