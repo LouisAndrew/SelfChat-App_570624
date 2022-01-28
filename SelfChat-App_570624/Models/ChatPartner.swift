@@ -8,9 +8,14 @@
 import Foundation
 
 struct ChatPartner: Codable, Hashable {
- var name: String
+    var name: String
 }
 
 struct ChatPartners: Codable {
- var partners: [ChatPartner]
+     var partners: [ChatPartner]
+    
+    func getPartners(odd: Bool) -> [ChatPartner] {
+        let modValue = odd ? 0 : 1
+        return partners.enumerated().filter({ $0.offset % 2 == modValue }).map({ $0.element })
+    }
 }
