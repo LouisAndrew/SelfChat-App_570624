@@ -20,6 +20,7 @@
 		D370C6EB27A026FB0083FA61 /* GetChatPartners.swift in Sources */ = {isa = PBXBuildFile; fileRef = D370C6EA27A026FB0083FA61 /* GetChatPartners.swift */; };
 		D370C6F027A02A190083FA61 /* JSONUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D370C6EF27A02A190083FA61 /* JSONUtils.swift */; };
 		D370C6F227A036DE0083FA61 /* ChatPartnersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D370C6F127A036DE0083FA61 /* ChatPartnersController.swift */; };
+		D3CB1A0C27A41A12005F831F /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CB1A0B27A41A12005F831F /* ChatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		D370C6EA27A026FB0083FA61 /* GetChatPartners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GetChatPartners.swift; path = "SelfChat-App_570624/Utils/GetChatPartners.swift"; sourceTree = "<group>"; };
 		D370C6EF27A02A190083FA61 /* JSONUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JSONUtils.swift; path = Utils/JSONUtils.swift; sourceTree = "<group>"; };
 		D370C6F127A036DE0083FA61 /* ChatPartnersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChatPartnersController.swift; path = Controller/ChatPartnersController.swift; sourceTree = "<group>"; };
+		D3CB1A0B27A41A12005F831F /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChatView.swift; path = Views/ChatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				D3498FF727A0098400BD6310 /* Assets.xcassets */,
 				D3498FF927A0098400BD6310 /* Preview Content */,
 				D349902327A0238800BD6310 /* SelectPartnerMenu.swift */,
+				D3CB1A0B27A41A12005F831F /* ChatView.swift */,
 			);
 			path = "SelfChat-App_570624";
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				D349902427A0238800BD6310 /* SelectPartnerMenu.swift in Sources */,
 				D349902027A022B800BD6310 /* ChatPartner.swift in Sources */,
 				D3498FF627A0098200BD6310 /* ContentView.swift in Sources */,
+				D3CB1A0C27A41A12005F831F /* ChatView.swift in Sources */,
 				D370C6EB27A026FB0083FA61 /* GetChatPartners.swift in Sources */,
 				D3498FF427A0098200BD6310 /* SelfChat_App_570624App.swift in Sources */,
 				D35B419F27A03E3E00963E71 /* BaseController.swift in Sources */,
