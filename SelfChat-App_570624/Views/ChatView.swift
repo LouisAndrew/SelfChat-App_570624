@@ -11,9 +11,12 @@ struct MessageView: View {
     var message: Message
     
     var body: some View {
-        Text(message.content)
-            .foregroundColor(message.sender ? .black : .white)
-            .background(message.sender ? .gray : .blue)
+            Text(message.content)
+                .padding(10)
+                .background(message.sender ? Color(red: 240/255, green: 240/255, blue: 240/255) : .blue)
+                .cornerRadius(10)
+                .foregroundColor(message.sender ? .black : .white)
+                .multilineTextAlignment(message.sender ? .trailing : .leading)
     }
 }
 
@@ -32,39 +35,44 @@ struct ChatView: View {
     
     var body: some View {
         NavigationView {
-            VStack {
-                if hasError {
-                    Text("Has error")
-                    Text(errorMessage)
-                }
-                
-                ForEach(chatHistoryController.chatHistory.messages, id: \.self) { message in
-                    MessageView(message: message)
-                }
-                
-                Button(action: {
-                    do {
-                        try chatHistoryController.addNewMessage(message: Message(content: "Hi", sender:  true))
-                    } catch {
-                        hasError = true
-                        errorMessage = "Err: \(error)"
+            ScrollView {
+                VStack {
+                    if hasError {
+                        Text("Has error")
+                        Text(errorMessage)
                     }
-                }, label: {
-                    Text("Send something")
-                })
-                
-                Button(action: {
-                    do {
-                        try chatHistoryController.addNewMessage(message: Message(content: "Hello!", sender:  false))
-                    } catch {
-                        hasError = true
-                        errorMessage = "Err: \(error)"
+                    
+                    ForEach(chatHistoryController.chatHistory.messages, id: \.self) { message in
+                        MessageView(message: message)
+                            .frame(idealWidth: 100, maxWidth: .infinity, alignment: message.sender ? .trailing : .leading)
+                            .padding(message.sender ? .trailing : .leading, 10)
                     }
-                }, label: {
-                    Text("Receive something")
-                })
+                    
+                    Button(action: {
+                        do {
+                            try chatHistoryController.addNewMessage(message: Message(content: "Hi", sender:  true))
+                        } catch {
+                            hasError = true
+                            errorMessage = "Err: \(error)"
+                        }
+                    }, label: {
+                        Text("Send something")
+                    })
+                    
+                    Button(action: {
+                        do {
+                            try chatHistoryController.addNewMessage(message: Message(content: "Hello!", sender:  false))
+                        } catch {
+                            hasError = true
+                            errorMessage = "Err: \(error)"
+                        }
+                    }, label: {
+                        Text("Receive something")
+                    })
+                }
             }
             .navigationTitle("Chatting with " + chatPartner.name)
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }

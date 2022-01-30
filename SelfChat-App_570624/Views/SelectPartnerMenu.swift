@@ -41,47 +41,50 @@ struct SelectPartnerMenu: View {
     
     var body: some View {
         NavigationView {
-            VStack {
-                HStack {
-                    if chatPartnersController.chatPartners.partners.count == 0 {
-                        Text("No partners found. Click the button below to start chatting")
-                            .multilineTextAlignment(.center)
-                            .foregroundColor(.gray)
-                            .padding(.bottom, 32)
-                            .padding([.trailing, .leading], 64)
-                    } else {
-                        VStack {
-                            ForEach(chatPartnersController.chatPartners.getPartners(odd: true), id: \.self) { partner in
-                                PartnerLink(chatPartner: partner)
+            ScrollView {
+                VStack {
+                    HStack {
+                        if chatPartnersController.chatPartners.partners.count == 0 {
+                            Text("No partners found. Click the button below to start chatting")
+                                .multilineTextAlignment(.center)
+                                .foregroundColor(.gray)
+                                .padding(.bottom, 32)
+                                .padding([.trailing, .leading], 64)
+                        } else {
+                            VStack {
+                                ForEach(chatPartnersController.chatPartners.getPartners(odd: true), id: \.self) { partner in
+                                    PartnerLink(chatPartner: partner)
+                                }
                             }
-                        }
-                        .padding([.leading, .trailing], 16)
-                        
-                        VStack {
-                            ForEach(chatPartnersController.chatPartners.getPartners(odd: false), id: \.self) { partner in
-                                PartnerLink(chatPartner: partner)
+                            .padding([.leading, .trailing], 16)
+                            
+                            VStack {
+                                ForEach(chatPartnersController.chatPartners.getPartners(odd: false), id: \.self) { partner in
+                                    PartnerLink(chatPartner: partner)
+                                }
                             }
+                            .padding([.leading, .trailing], 16)
                         }
-                        .padding([.leading, .trailing], 16)
                     }
+                    
+                    Button(action: {
+                           newPartner()
+                        }, label: {
+                            Text("Add chat partner")
+                                .padding(.all, 12)
+                        })
+                            .foregroundColor(.white)
+                            .background(.blue)
+                            .cornerRadius(5)
+                            .padding(.top, 48)
+                            .padding(.bottom, 24)
+                    
+                    Text("HTW WiSe21/22")
+                    Text("Louis Andrew, s0570624")
                 }
-                
-                Button(action: {
-                       newPartner()
-                    }, label: {
-                        Text("Add chat partner")
-                            .padding(.all, 12)
-                    })
-                        .foregroundColor(.white)
-                        .background(.blue)
-                        .cornerRadius(5)
-                        .padding(.top, 48)
-                        .padding(.bottom, 24)
-                
-                Text("HTW WiSe21/22")
-                Text("Louis Andrew, s0570624")
             }
             .navigationTitle("Conversation")
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }
