@@ -11,46 +11,28 @@ let defaultChatHistoryModel = ChatHistory(chatPartner: "", messages: [])
 
 class ChatHistoryController: BaseController<ChatHistory> {
     
-    static let controller = ChatHistoryController()
-    
     var currentChatPartner = ""
     @Published var chatHistory = defaultChatHistoryModel
     
-    func getChatHistory(chatPartner: String) -> ChatHistory {
-        if chatPartner != currentChatPartner {
-            currentChatPartner = chatPartner
-           setDocumentPath()
-            let chatHistoryJSONString = readJSON(source: documentPath!)
-            if chatHistoryJSONString != "" {
-                return decodeJSON(jsonString: chatHistoryJSONString)
-            } else {
-                return ChatHistory(chatPartner: currentChatPartner, messages: [])
-            }
-        }
-        
-        return chatHistory
+    func getChatHistory() {
+        let chatHistoryJSONString = readJSON(source: documentPath!)
+        _chatHistory = Published(wrappedValue: decodeJSON(jsonString: chatHistoryJSONString))
     }
     
-    func setDocumentPath() {
-        documentPath = getDocumentsPath().appendingPathComponent(currentChatPartner).appendingPathExtension("json")
-    }
-    
-    override init() {
+    init(chatPartner: ChatPartner) {
         super.init()
-        defaultModel = defaultChatHistoryModel
-        documentPath = getDocumentsPath().appendingPathComponent("sample").appendingPathExtension("json")
+        currentChatPartner = chatPartner.name
+        defaultModel = ChatHistory(chatPartner: currentChatPartner, messages: [])
+        documentPath = getDocumentsPath().appendingPathComponent(currentChatPartner).appendingPathExtension("json")
+        getChatHistory()
     }
     
-    override func saveValues() {
-        do {
-            try writeJSON(source: documentPath!, jsonString: encodeToJSON(model: chatHistory))
-        } catch {
-            // Handle error
-        }
+    func saveValueWithError() throws {
+        try writeJSON(source: documentPath!, jsonString: encodeToJSON(model: chatHistory))
     }
     
-    func addNewMessage(message: Message) {
+    func addNewMessage(message: Message) throws {
         chatHistory.messages.append(message)
-        saveValues()
+        try saveValueWithError()
     }
 }
