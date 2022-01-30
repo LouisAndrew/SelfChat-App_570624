@@ -23,6 +23,7 @@
 		D3A6188327A41DE400E4D604 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A6188227A41DE400E4D604 /* Message.swift */; };
 		D3A6188527A41E9200E4D604 /* ChatHistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A6188427A41E9200E4D604 /* ChatHistoryController.swift */; };
 		D3CB1A0C27A41A12005F831F /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CB1A0B27A41A12005F831F /* ChatView.swift */; };
+		D3FE00BB27A6C9070025DF12 /* SendMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FE00BA27A6C9070025DF12 /* SendMessageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		D3A6188227A41DE400E4D604 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Message.swift; path = Models/Message.swift; sourceTree = "<group>"; };
 		D3A6188427A41E9200E4D604 /* ChatHistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChatHistoryController.swift; path = Controller/ChatHistoryController.swift; sourceTree = "<group>"; };
 		D3CB1A0B27A41A12005F831F /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChatView.swift; path = Views/ChatView.swift; sourceTree = "<group>"; };
+		D3FE00BA27A6C9070025DF12 /* SendMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SendMessageView.swift; path = Views/SendMessageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				D3498FF727A0098400BD6310 /* Assets.xcassets */,
 				D3498FF927A0098400BD6310 /* Preview Content */,
 				D349902327A0238800BD6310 /* SelectPartnerMenu.swift */,
+				D3FE00BA27A6C9070025DF12 /* SendMessageView.swift */,
 				D3A6188227A41DE400E4D604 /* Message.swift */,
 				D3A6188427A41E9200E4D604 /* ChatHistoryController.swift */,
 				D3CB1A0B27A41A12005F831F /* ChatView.swift */,
@@ -294,6 +297,7 @@
 				D3498FF427A0098200BD6310 /* SelfChat_App_570624App.swift in Sources */,
 				D3A6188327A41DE400E4D604 /* Message.swift in Sources */,
 				D35B419F27A03E3E00963E71 /* BaseController.swift in Sources */,
+				D3FE00BB27A6C9070025DF12 /* SendMessageView.swift in Sources */,
 				D370C6F227A036DE0083FA61 /* ChatPartnersController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
